@@ -4044,132 +4044,132 @@ if player=='7':
 	print("\033[96m    1. Florentino Susanoo🐧\n   \033[91m Tao Code Nhiều Quá Trầm Cảm Rồi Tha Tao \n         < Lời Cầu Cứu Của Eric>")
 	chooseskinche =input('\033[90mChọn Skin : ')
 	print('\033[96m Lưu Ý : Đây Chỉ Là Mod Hiệu Ứng')
-  if chooseskinche=='1':
-  	def replace_text(file_path, old_text, new_text):
-  	  with open(o+'/'+file_path, "rb") as f:
-  	    text = f.read()
-  	  text = text.replace(old_text.encode(), new_text.encode())
-  	  with open(o+'/'+file_path, "wb") as f:
-  	    f.write(text)
-  	if __name__ == "__main__":
-  		o = input("Nhập Thư Mục : ")+'/'
-  		print("\033[96m Xong")
-  		for file_path in os.listdir(o):
-  			if file_path.endswith("A1.xml"):
-  				number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_natk01_atk01', '518_Quillen/51808/jingke_attack_01')
-  			if file_path.endswith("A1E1.xml"):      
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_natk01_hurt01', '518_Quillen/51808/jingke_hurt01')
-  			if file_path.endswith("A2.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_natk02_atk01', '518_Quillen/51808/jingke_attack_01')
-  			if file_path.endswith("A2E1.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_natk01_hurt01', '518_Quillen/51808/jingke_hurt01')
-  			if file_path.endswith("A3.xml"):      
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_natk03_atk01', '518_Quillen/51808/jingke_attack_01')
-  			if file_path.endswith("A3E1.xml"):                
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_natk01_hurt01', '518_Quillen/51808/jingke_hurt01')
-  			if file_path.endswith("A4.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_natk04_atk01', '515_Richter/51504/Richter_natk04_atk01')
-  			if file_path.endswith("A4.xml"):           
-  			      number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_natk04_atk02', '515_Richter/51504/Richter_natk04_atk01')
-  			if file_path.endswith("A4E1.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_natk01_hurt01', '518_Quillen/51808/jingke_buff01_spell02')
-  			if file_path.endswith("C1E1.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_passive_buff01', '515_Richter/51504/Richter_buff_Grass')
-  			if file_path.endswith("C1E1.xml"):           
-  			      number_of_replacements = replace_text(file_path, 'Bip001 Prop1', 'Bone_Weapon01')
-  			if file_path.endswith("P1E2.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_passive_buff01', '515_Richter/51504/Richter_buff_Grass')
-  			if file_path.endswith("P1E2.xml"):           
-  			    number_of_replacements = replace_text(file_path, 'Bip001 Prop1', 'Bone_Weapon01')
-  			if file_path.endswith("S1.xml"):           
-  			    number_of_replacements = replace_text(file_path, 'hero_skill_effects/521_Florentino/Florentino_spell01_atk01', '518_Quillen/51808/jingke_attack01_spell02')
-  			if file_path.endswith("S1B1.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_bullet01', '521_Florentino/52106/Florentino_spell01_bullet01')
-  			if file_path.endswith("S1B1.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_bullet01_fade', '518_Quillen/51808/jingke_hurt01')
-  			if file_path.endswith("S1B2.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_bullet02', '150_hanxin/15009/hanxin_attack01_spell04')
-  			if file_path.endswith("S1B2.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_bullet03', '518_Quillen/51808/huicheng_tongyong_01')
-  			if file_path.endswith("S1B2.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_bullet03_fade', '518_Quillen/51808/huijidi_01')
-  			if file_path.endswith("S1B2.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_bullet03_e', '518_Quillen/51808/huicheng_tongyong_01')
-  			if file_path.endswith("S1B2.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_buff01', '515_Richter/51504/Richter_spell02_atk02')
-  			if file_path.endswith("S1B2.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_buff01_e', '515_Richter/51504/Richter_spell02_atk02')
-  			if file_path.endswith("S1B3.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_bullet02', '150_hanxin/15009/hanxin_attack01_spell04')
-  			if file_path.endswith("S1B3.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_bullet03"', '518_Quillen/51808/huicheng_tongyong_01"')
-  			if file_path.endswith("S1B3.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_bullet03_fade', '518_Quillen/51808/huijidi_01')
-  			if file_path.endswith("S1B3.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_bullet03_e', '518_Quillen/51808/huicheng_tongyong_01')
-  			if file_path.endswith("S1B3.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_buff01', '515_Richter/51504/Richter_spell02_atk02')
-  			if file_path.endswith("S1B3.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_buff01_e', '515_Richter/51504/Richter_spell02_atk02')
-  			if file_path.endswith("S1B4.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_bullet02', '150_hanxin/15009/hanxin_attack01_spell04')
-  			if file_path.endswith("S1B4.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_bullet03"', '518_Quillen/51808/huicheng_tongyong_01"')
-  			if file_path.endswith("S1B4.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_bullet03_fade', '518_Quillen/51808/huijidi_01')
-  			if file_path.endswith("S1B4.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_bullet03_e', '518_Quillen/51808/huicheng_tongyong_01')
-  			if file_path.endswith("S1B4.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_buff01', '515_Richter/51504/Richter_spell02_atk02')
-  			if file_path.endswith("S1B4.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_buff01_e', '515_Richter/51504/Richter_spell02_atk02')
-  			if file_path.endswith("S1E1.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_hurt01', '190_zhugeliang/19007/zhugeliang_hurt01_spell04')
-  			if file_path.endswith("S2.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell02_atk01', '518_Quillen/51808/jingke_attack01_spell01')
-  			if file_path.endswith("S21.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell02_atk02', '518_Quillen/51808/jingke_attack01_spell01')
-  			if file_path.endswith("S22.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell02_atk03', '518_Quillen/51808/jingke_attack01_spell02')
-  			if file_path.endswith("S2E1.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell02_hurt01', '518_Quillen/51808/jingke_hurt01')
-  			if file_path.endswith("S2E2.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell02_hurt02', '518_Quillen/51808/jingke_hurt01')
-  			if file_path.endswith("S2E3.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell02_hurt03', '518_Quillen/51808/jingke_hurt01')
-  			if file_path.endswith("S2E31.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell02_hurt03', '518_Quillen/51808/jingke_hurt01')
-  			if file_path.endswith("U1.xml"):           
-  			    number_of_replacements = replace_text(file_path, '<String name="resourceName" value="prefab_skill_effects/hero_skill_effects/521_Florentino/Florentino_spell03_atk01" refParamName="" useRefParam="false" />', '<String name="resourceName" value="prefab_skill_effects/hero_skill_effects/515_Richter/51504/Richter_spell01River_atk02" refParamName="" useRefParam="false" />\n        <String name="resourceName2" value="prefab_skill_effects/hero_skill_effects/515_Richter/51504/Richter_spell01Road_atk02" refParamName="" useRefParam="false" />\n        <String name="resourceName3" value="prefab_skill_effects/hero_skill_effects/515_Richter/51504/Richter_spell01Grass_atk02" refParamName="" useRefParam="false" />')
-  			if file_path.endswith("U1.xml"):           
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell03_atk02', '518_Quillen/51808/jingke_attack02_spell02')
-  			if file_path.endswith("U1E1.xml"):
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell03_hurt01', '515_Richter/51504/Richter_buff_Grass')
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell03_buff02', '515_Richter/51504/Richter_buff_Grass')
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell03_buff01', '515_Richter/51504/Richter_buff_River')
-  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell03_hurt01', '515_Richter/51504/Richter_buff_River')
-  			        
-  	File = os.listdir(o)
-  	for file in File:
-  	    with open(o + file, 'rb') as f:
-  	        rpl = f.readlines()
-  	    with open(o + file, 'rb') as f:
-  	        Rpl = f.read()
-  	        
-  	    Code = []
-  	    for i in rpl:
-  	        if i.find(b'<String name="eventName" value="') != -1:
-  	            Code.append(i[40:i.find(b'" refParamName="" useRefParam="false" />')])
-  	    
-  	    if Code:  # Kiểm tra nếu Code không rỗng
-  	        for i in Code:
-  	            Rpl = Rpl.replace(i, i + ID)
-  	    
-  	    with open(o + file, 'wb') as f:
-  	        f.write(Rpl)
-  
-  	    
-  	    input("\33[1;31m\\" + "—" * 58 + "/\n" + Fore.RESET)
+	if chooseskinche=='1':
+	  	def replace_text(file_path, old_text, new_text):
+	  	  with open(o+'/'+file_path, "rb") as f:
+	  	    text = f.read()
+	  	  text = text.replace(old_text.encode(), new_text.encode())
+	  	  with open(o+'/'+file_path, "wb") as f:
+	  	    f.write(text)
+	  	if __name__ == "__main__":
+	  		o = input("Nhập Thư Mục : ")+'/'
+	  		print("\033[96m Xong")
+	  		for file_path in os.listdir(o):
+	  			if file_path.endswith("A1.xml"):
+	  				number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_natk01_atk01', '518_Quillen/51808/jingke_attack_01')
+	  			if file_path.endswith("A1E1.xml"):      
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_natk01_hurt01', '518_Quillen/51808/jingke_hurt01')
+	  			if file_path.endswith("A2.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_natk02_atk01', '518_Quillen/51808/jingke_attack_01')
+	  			if file_path.endswith("A2E1.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_natk01_hurt01', '518_Quillen/51808/jingke_hurt01')
+	  			if file_path.endswith("A3.xml"):      
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_natk03_atk01', '518_Quillen/51808/jingke_attack_01')
+	  			if file_path.endswith("A3E1.xml"):                
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_natk01_hurt01', '518_Quillen/51808/jingke_hurt01')
+	  			if file_path.endswith("A4.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_natk04_atk01', '515_Richter/51504/Richter_natk04_atk01')
+	  			if file_path.endswith("A4.xml"):           
+	  			      number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_natk04_atk02', '515_Richter/51504/Richter_natk04_atk01')
+	  			if file_path.endswith("A4E1.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_natk01_hurt01', '518_Quillen/51808/jingke_buff01_spell02')
+	  			if file_path.endswith("C1E1.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_passive_buff01', '515_Richter/51504/Richter_buff_Grass')
+	  			if file_path.endswith("C1E1.xml"):           
+	  			      number_of_replacements = replace_text(file_path, 'Bip001 Prop1', 'Bone_Weapon01')
+	  			if file_path.endswith("P1E2.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_passive_buff01', '515_Richter/51504/Richter_buff_Grass')
+	  			if file_path.endswith("P1E2.xml"):           
+	  			    number_of_replacements = replace_text(file_path, 'Bip001 Prop1', 'Bone_Weapon01')
+	  			if file_path.endswith("S1.xml"):           
+	  			    number_of_replacements = replace_text(file_path, 'hero_skill_effects/521_Florentino/Florentino_spell01_atk01', '518_Quillen/51808/jingke_attack01_spell02')
+	  			if file_path.endswith("S1B1.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_bullet01', '521_Florentino/52106/Florentino_spell01_bullet01')
+	  			if file_path.endswith("S1B1.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_bullet01_fade', '518_Quillen/51808/jingke_hurt01')
+	  			if file_path.endswith("S1B2.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_bullet02', '150_hanxin/15009/hanxin_attack01_spell04')
+	  			if file_path.endswith("S1B2.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_bullet03', '518_Quillen/51808/huicheng_tongyong_01')
+	  			if file_path.endswith("S1B2.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_bullet03_fade', '518_Quillen/51808/huijidi_01')
+	  			if file_path.endswith("S1B2.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_bullet03_e', '518_Quillen/51808/huicheng_tongyong_01')
+	  			if file_path.endswith("S1B2.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_buff01', '515_Richter/51504/Richter_spell02_atk02')
+	  			if file_path.endswith("S1B2.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_buff01_e', '515_Richter/51504/Richter_spell02_atk02')
+	  			if file_path.endswith("S1B3.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_bullet02', '150_hanxin/15009/hanxin_attack01_spell04')
+	  			if file_path.endswith("S1B3.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_bullet03"', '518_Quillen/51808/huicheng_tongyong_01"')
+	  			if file_path.endswith("S1B3.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_bullet03_fade', '518_Quillen/51808/huijidi_01')
+	  			if file_path.endswith("S1B3.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_bullet03_e', '518_Quillen/51808/huicheng_tongyong_01')
+	  			if file_path.endswith("S1B3.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_buff01', '515_Richter/51504/Richter_spell02_atk02')
+	  			if file_path.endswith("S1B3.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_buff01_e', '515_Richter/51504/Richter_spell02_atk02')
+	  			if file_path.endswith("S1B4.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_bullet02', '150_hanxin/15009/hanxin_attack01_spell04')
+	  			if file_path.endswith("S1B4.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_bullet03"', '518_Quillen/51808/huicheng_tongyong_01"')
+	  			if file_path.endswith("S1B4.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_bullet03_fade', '518_Quillen/51808/huijidi_01')
+	  			if file_path.endswith("S1B4.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_bullet03_e', '518_Quillen/51808/huicheng_tongyong_01')
+	  			if file_path.endswith("S1B4.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_buff01', '515_Richter/51504/Richter_spell02_atk02')
+	  			if file_path.endswith("S1B4.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_buff01_e', '515_Richter/51504/Richter_spell02_atk02')
+	  			if file_path.endswith("S1E1.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell01_hurt01', '190_zhugeliang/19007/zhugeliang_hurt01_spell04')
+	  			if file_path.endswith("S2.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell02_atk01', '518_Quillen/51808/jingke_attack01_spell01')
+	  			if file_path.endswith("S21.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell02_atk02', '518_Quillen/51808/jingke_attack01_spell01')
+	  			if file_path.endswith("S22.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell02_atk03', '518_Quillen/51808/jingke_attack01_spell02')
+	  			if file_path.endswith("S2E1.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell02_hurt01', '518_Quillen/51808/jingke_hurt01')
+	  			if file_path.endswith("S2E2.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell02_hurt02', '518_Quillen/51808/jingke_hurt01')
+	  			if file_path.endswith("S2E3.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell02_hurt03', '518_Quillen/51808/jingke_hurt01')
+	  			if file_path.endswith("S2E31.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell02_hurt03', '518_Quillen/51808/jingke_hurt01')
+	  			if file_path.endswith("U1.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '<String name="resourceName" value="prefab_skill_effects/hero_skill_effects/521_Florentino/Florentino_spell03_atk01" refParamName="" useRefParam="false" />', '<String name="resourceName" value="prefab_skill_effects/hero_skill_effects/515_Richter/51504/Richter_spell01River_atk02" refParamName="" useRefParam="false" />\n        <String name="resourceName2" value="prefab_skill_effects/hero_skill_effects/515_Richter/51504/Richter_spell01Road_atk02" refParamName="" useRefParam="false" />\n        <String name="resourceName3" value="prefab_skill_effects/hero_skill_effects/515_Richter/51504/Richter_spell01Grass_atk02" refParamName="" useRefParam="false" />')
+	  			if file_path.endswith("U1.xml"):           
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell03_atk02', '518_Quillen/51808/jingke_attack02_spell02')
+	  			if file_path.endswith("U1E1.xml"):
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell03_hurt01', '515_Richter/51504/Richter_buff_Grass')
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell03_buff02', '515_Richter/51504/Richter_buff_Grass')
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell03_buff01', '515_Richter/51504/Richter_buff_River')
+	  			    number_of_replacements = replace_text(file_path, '521_Florentino/Florentino_spell03_hurt01', '515_Richter/51504/Richter_buff_River')
+	  			        
+	  	File = os.listdir(o)
+	  	for file in File:
+	  	    with open(o + file, 'rb') as f:
+	  	        rpl = f.readlines()
+	  	    with open(o + file, 'rb') as f:
+	  	        Rpl = f.read()
+	  	        
+	  	    Code = []
+	  	    for i in rpl:
+	  	        if i.find(b'<String name="eventName" value="') != -1:
+	  	            Code.append(i[40:i.find(b'" refParamName="" useRefParam="false" />')])
+	  	    
+	  	    if Code:  # Kiểm tra nếu Code không rỗng
+	  	        for i in Code:
+	  	            Rpl = Rpl.replace(i, i + ID)
+	  	    
+	  	    with open(o + file, 'wb') as f:
+	  	        f.write(Rpl)
+	  
+	  	    
+	  	    input("\33[1;31m\\" + "—" * 58 + "/\n" + Fore.RESET)
 
 
 ################################################################################################################################
